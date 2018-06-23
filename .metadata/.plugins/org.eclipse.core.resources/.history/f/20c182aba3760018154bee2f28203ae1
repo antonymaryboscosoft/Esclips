@@ -1,0 +1,11 @@
+package oopsconcept;
+
+public class Bmw  extends Car{
+	public void start(){
+		System.out.println("Bmw .... start");
+	}
+
+	public void rheftsafty(){
+		System.out.println("bmw .... theftsafty"); 
+	}
+}

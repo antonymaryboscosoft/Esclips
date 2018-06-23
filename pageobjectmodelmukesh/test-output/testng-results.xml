@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7932" started-at="2018-05-04T05:20:35Z" finished-at="2018-05-04T05:20:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7932" started-at="2018-05-04T05:20:35Z" finished-at="2018-05-04T05:20:43Z">
+      <class name="com.crm.qa.testcase.VerifyValidLoginNew">
+        <test-method status="PASS" signature="checkValidUser()[pri:0, instance:com.crm.qa.testcase.VerifyValidLoginNew@167c1fc]" name="checkValidUser" duration-ms="7916" started-at="2018-05-04T10:50:35Z" finished-at="2018-05-04T10:50:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkValidUser -->
+      </class> <!-- com.crm.qa.testcase.VerifyValidLoginNew -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

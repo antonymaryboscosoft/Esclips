@@ -1,0 +1,27 @@
+//pom class 2
+Usages:
+1)Testbase
+2)config.properties
+3)Testutil
+4)Loginpage
+5)loginpage test
+//pom class 3
+Usages:
+Home page
+contact page
+
+
+
+
+
+
+
+
+
+//pom class 4 
+open home page .....>1
+enter the xpath for the contact & new contsctlink........>2
+public void clickon new contsct page...........>3
+
+after open home page navigate to the newcontact page.
+Select select = new Select(driver.findElement(By.name("title"
