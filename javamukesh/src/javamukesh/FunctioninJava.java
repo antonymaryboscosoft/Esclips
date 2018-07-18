@@ -17,7 +17,7 @@ public class FunctioninJava {
 	}
 //	non static method
 	//1.return type is void
-		public void test(){
+		public void test( ){
 			System.out.println("test method");
 		}
 //		2.here void des't return type 

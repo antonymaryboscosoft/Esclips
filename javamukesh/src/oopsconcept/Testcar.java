@@ -13,6 +13,15 @@ public class Testcar {
 Car c = new Car();
 c.start();
 c.stop();
-	}
+	
+	System.out.println("*********");
+	
+	
+	Car c1 = new Bmw();// child class obj can be refered by parent class reference variable 
+	//---> called dynamic polymorphism or run time polymorphism
+	c1.start();
+	c1.stop(); 
+	
 
+	}
 }

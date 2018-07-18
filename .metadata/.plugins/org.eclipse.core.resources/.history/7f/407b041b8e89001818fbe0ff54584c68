@@ -1,0 +1,23 @@
+package javamukesh;
+
+public class Finally {
+
+	public static void main(String[] args) {
+	
+		test();
+	}
+
+	public  static void test(){
+		try{
+			System.out.println("inside the try block");
+			throw new RuntimeException("test");
+			
+		}catch (Exception e){
+			System.out.println("inside the catch block");
+		}
+	finally
+	{
+		System.out.println("inside the finally block");
+	}
+
+}}

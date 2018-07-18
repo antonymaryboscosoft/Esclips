@@ -1,0 +1,10 @@
+package javamukesh;
+
+public class Finalfinally {
+
+	public static void main(String[] args) {
+//		using method overriding concept
+		final int  i= 10;  // constance value (we can not changed)
+	}
+
+}
