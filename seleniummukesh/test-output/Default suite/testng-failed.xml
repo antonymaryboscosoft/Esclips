@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="seleniummukesh.Hardassertiondifferent">
+      <class name="seleniummukesh.Facebookscreenshort">
         <methods>
-          <include name="assertEquals"/>
+          <include name="captureScreenshot"/>
         </methods>
-      </class> <!-- seleniummukesh.Hardassertiondifferent -->
+      </class> <!-- seleniummukesh.Facebookscreenshort -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

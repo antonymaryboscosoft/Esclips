@@ -6,7 +6,7 @@ public class EmpArray {
 	int age;
 	String dept;
 	
-	EmpArray(String name, int age, String dept){ // local variables
+	EmpArray(String name,  int age, String dept){ // local variables
 		this.name= name; //means global variable = local variable
 		this.age= age;
 		this.dept= dept;

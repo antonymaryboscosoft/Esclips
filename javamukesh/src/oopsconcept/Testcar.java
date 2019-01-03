@@ -7,6 +7,7 @@ public class Testcar {
 		Bmw b = new Bmw();
 		// this is called compile time polymorphism
 		b.start();
+		b.stop();
 		b.theftsafty();
 		
 		System.out.println("*********");

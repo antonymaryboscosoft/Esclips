@@ -13,7 +13,7 @@ public class Facebookscreenshort {
 	@Test
 	public void captureScreenshot() throws IOException{
 	
-	System.setProperty("webdriver.chrome.driver","C:\\Users\\moses\\Downloads\\ChromeDriver.exe");
+	System.setProperty("webdriver.chrome.driver","E:\\anto\\seleniumchrom\\chromedriver.exe");
 	WebDriver driver = new ChromeDriver();  
 	driver.manage().window().maximize();
 	

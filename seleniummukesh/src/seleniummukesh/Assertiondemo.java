@@ -19,7 +19,7 @@ public class Assertiondemo {
 		@Test
 		public void test13(){
 				System.out.println("test case 3 started");
-			Assert.assertEquals("Hello", "Hello","word does not match raise the bud");
+			Assert.assertEquals("Hello", "Hello","word does not match raise the bug");
 			System.out.println("test case 3 completed");
 	}
 		@Test

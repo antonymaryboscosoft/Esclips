@@ -1,0 +1,44 @@
+import io.appium.java_client.MobileElement;
+
+import java.util.List;
+
+import org.openqa.selenium.WebDriver;
+
+
+public class Scrolling {
+
+	private static WebDriver Driver;
+	public static WebDriver getDriver(){
+	return Driver;
+	}
+	static void setWebDriver(WebDriver driver){
+		Driver = driver;
+	}
+	  public void selectDate() {
+			register.birthDate.click();
+			general.datePickerYear.click();
+			u.swipeInListTillExpectedTextAndTap(general.yearList, "1991", 20);
+			general.datePickerNextButton.click();
+			general.datePickerDay.click();
+			general.datePickerOK.click();
+		}
+
+		public void swipeInListTillExpectedTextAndTap(List<MobileElement> list, String expectedText, int time) {
+			int i = 1;
+			while (!driver.getPageSource().contains(expectedText)) {
+				swipeInListFromLastToFirst(list);
+				i++;
+				if (i == time)
+					break;
+			}
+			tap(driver.findElementByAndroidUIAutomator("new UiSelector().textContains(\"" + expectedText + "\")"));
+		}
+
+		public void swipeInListFromLastToFirst(List<MobileElement> listID) {
+			int items = listID.size();
+			org.openqa.selenium.Point centerOfFirstElement = listID.get(0).getCenter();
+			org.openqa.selenium.Point centerOfLastElement = listID.get(items - 1).getCenter();
+			new TouchAction<>(driver).longPress(point(centerOfLastElement.x, centerOfLastElement.y))
+					.moveTo(point(centerOfFirstElement.x, centerOfFirstElement.y)).release().perform();
+		}
+}

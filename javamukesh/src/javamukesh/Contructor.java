@@ -1,7 +1,7 @@
 package javamukesh;
 
 public class Contructor {
-
+// constructor can be over loaded
 	public Contructor(){
 		System.out.println("default constructor");
 	}
