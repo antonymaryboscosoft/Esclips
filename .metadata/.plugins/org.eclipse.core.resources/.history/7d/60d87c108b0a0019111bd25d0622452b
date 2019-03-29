@@ -1,9 +1,0 @@
-import Addreading.Addbaby;
-
-
-public class Testbabyscale extends Addbaby {
-	
-		Addbaby A = new Addbaby();
-		
-	
-}

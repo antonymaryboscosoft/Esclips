@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7267" started-at="2018-12-29T04:52:43Z" finished-at="2018-12-29T04:52:50Z">
+  <suite name="Default suite" duration-ms="27448" started-at="2019-02-06T10:38:21Z" finished-at="2019-02-06T10:38:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7267" started-at="2018-12-29T04:52:43Z" finished-at="2018-12-29T04:52:50Z">
+    <test name="Default test" duration-ms="27448" started-at="2019-02-06T10:38:21Z" finished-at="2019-02-06T10:38:49Z">
       <class name="seleniummukesh.Facebookscreenshort">
-        <test-method status="PASS" signature="captureScreenshot()[pri:0, instance:seleniummukesh.Facebookscreenshort@198378d]" name="captureScreenshot" duration-ms="7257" started-at="2018-12-29T10:22:43Z" finished-at="2018-12-29T10:22:50Z">
+        <test-method status="PASS" signature="captureScreenshot()[pri:0, instance:seleniummukesh.Facebookscreenshort@198378d]" name="captureScreenshot" duration-ms="27425" started-at="2019-02-06T16:08:21Z" finished-at="2019-02-06T16:08:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureScreenshot -->

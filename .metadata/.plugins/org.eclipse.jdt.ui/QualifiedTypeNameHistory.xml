@@ -1,11 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Set"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.JavascriptExecutor"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.remote.RemoteWebElement"/>
-<fullyQualifiedTypeName name="Addreading.Addbaby"/>
-<fullyQualifiedTypeName name="org.testng.Assert"/>
-</qualifiedTypeNameHistroy>
+<qualifiedTypeNameHistroy/>

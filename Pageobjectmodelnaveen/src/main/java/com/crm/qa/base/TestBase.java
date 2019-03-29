@@ -38,6 +38,7 @@ public class TestBase {
 		if(browserName.equals("chrome")){
 			System.setProperty("webdriver.chrome.driver", "E:/anto/seleniumchrom/chromedriver.exe");	
 			
+			//already define webdriver so not enter here...,
 			driver = new ChromeDriver(); 
 		}
 		/*else if(browserName.equals("FF")){

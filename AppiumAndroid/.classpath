@@ -87,7 +87,6 @@
 	<classpathentry kind="lib" path="E:/anto/prog files/appache poi jar files/poi-3.17/lib/log4j-1.2.17.jar"/>
 	<classpathentry kind="lib" path="E:/anto/prog files/appache poi jar files/poi-3.17/ooxml-lib/curvesapi-1.04.jar"/>
 	<classpathentry kind="lib" path="E:/anto/prog files/appache poi jar files/poi-3.17/ooxml-lib/xmlbeans-2.6.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/unit2a/Downloads/java-client-5.0.0.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

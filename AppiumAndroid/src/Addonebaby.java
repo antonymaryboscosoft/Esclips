@@ -42,10 +42,10 @@ public class Addonebaby {
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		capabilities.setCapability("deviceName", "TestOneAdb1");
 		capabilities.setCapability(CapabilityType.PLATFORM,"Android");
-		capabilities. setCapability("platformVersion","6.0");
+		capabilities. setCapability("platformVersion","5.0");
 		capabilities.setCapability("unicodeKeyboard", true);
 		capabilities.setCapability("resetKeyboard", true);
-		File file = new File("/Users/unit2a/Downloads", "app-debug (2).apk");
+		File file = new File("/Users/unit2a/Downloads", "app-debug.apk");
 		capabilities.setCapability("app",file.getAbsolutePath());
 		driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
 

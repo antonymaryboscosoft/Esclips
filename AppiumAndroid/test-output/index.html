@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\unit2a\AppData\Local\Temp\testng-eclipse-1420576064\testng-customsuite.xml</span>
+                    <span>C:\Users\unit2a\AppData\Local\Temp\testng-eclipse--1350135768\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="BluetoothConnection" hash-for-method="main">main</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="BabyScaleDDNew" hash-for-method="main">main</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -120,7 +120,7 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">BluetoothConnection</span>
+              <span class="class-name">BabyScaleDDNew</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -128,11 +128,15 @@
                   <a name="main">
                   </a> <!-- main -->
                   <span class="method-name">main</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 5.0. The following are available: 95VOBUGQCAPBLJ5H (6.0) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 391 milliseconds
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 463 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
 System info: host: &apos;DESKTOP-OT8OU31&apos;, ip: &apos;192.168.1.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=C:\Users\unit2a\Downloads\app-debug.apk, appPackage=com.ozeri.babyscale, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.ozeri.babyscale, appWaitActivity=com.ozeri.babyscale.presentation.splash.SplashActivity, databaseEnabled=false, deviceName=0123456789ABCDEF, platform=ANDROID, deviceUDID=0123456789ABCDEF, appActivity=com.ozeri.babyscale.presentation.splash.SplashActivity, desired={app=C:\Users\unit2a\Downloads\app-debug.apk, platformVersion=5.0, unicodeKeyboard=true, platformName=Android, deviceName=TestOneAdb1, platform=ANDROID, resetKeyboard=true}, platformVersion=5.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Micromax Q345, unicodeKeyboard=true, platformName=Android, deviceManufacturer=Micromax, resetKeyboard=true}]
+Session ID: 9fde71c4-e2c4-4802-8568-713804a518a3
+*** Element info: {Using=id, value=com.android.packageinstaller:id/permission_allow_button}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -143,14 +147,16 @@ Driver info: io.appium.java_client.android.AndroidDriver
 	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
 	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
 	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:36)
-	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:114)
-	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:132)
-	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:92)
-	at BluetoothConnection.main(BluetoothConnection.java:47)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:64)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at BabyScaleDDNew.Reading(BabyScaleDDNew.java:81)
+	at BabyScaleDDNew.main(BabyScaleDDNew.java:62)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -185,7 +191,7 @@ Driver info: io.appium.java_client.android.AndroidDriver
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\unit2a\AppData\Local\Temp\testng-eclipse-1420576064\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\unit2a\AppData\Local\Temp\testng-eclipse--1350135768\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -194,7 +200,7 @@ Driver info: io.appium.java_client.android.AndroidDriver
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;BluetoothConnection&quot;/&gt;
+      &lt;class name=&quot;BabyScaleDDNew&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -237,13 +243,13 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'main')
-data.setCell(0, 2, 'BluetoothConnection')
-data.setCell(0, 3, 966);
+data.setCell(0, 2, 'BabyScaleDDNew')
+data.setCell(0, 3, 48605);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 966 ms</span>
+              <span class="suite-total-time">Total running time: 48 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -269,7 +275,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">BluetoothConnection</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">BabyScaleDDNew</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">g</span>
                 <span class="method-start">0 ms</span>
@@ -278,7 +284,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">main</span>
-                <span class="method-start">851 ms</span>
+                <span class="method-start">825 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

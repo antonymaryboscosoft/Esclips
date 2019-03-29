@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="seleniummukesh.Facebookscreenshort">
+      <class name="seleniummukesh.Drapdown">
         <methods>
-          <include name="captureScreenshot"/>
+          <include name="selectDDValues"/>
         </methods>
-      </class> <!-- seleniummukesh.Facebookscreenshort -->
+      </class> <!-- seleniummukesh.Drapdown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

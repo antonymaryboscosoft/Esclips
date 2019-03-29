@@ -9,15 +9,20 @@ import com.base.TestBase;
 
 
 public class LoginPageTest extends TestBase {
+	 
 	LoginPage loginPage;
 	HomePage homePage;
-	
+	//create loginpagetest constructor
+	//1. execute super key call parent class
 	public LoginPageTest() {
 		super();
 	}
 @BeforeMethod
 public void setUp(){
+//2.execute init method
 initialization();
+//create obj of login page class
+//3. execute login page
 loginPage = new LoginPage();
 
 }
